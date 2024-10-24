@@ -347,3 +347,4 @@
 // console.log(h1New.innerText);
 
 let first = document.querySelectorAll("h1");
+console.log(first);
