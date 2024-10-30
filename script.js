@@ -346,5 +346,56 @@
 // let h1New = document.querySelector("h1");
 // console.log(h1New.innerText);
 
-let first = document.querySelectorAll("h1");
-console.log(first);
+// let first = document.querySelectorAll("h1");
+// console.log(first);
+
+//to get the attribute
+// let div = document.querySelector("div");
+// div.innerText = 'Happy';
+// // console.log(div.getAttribute("class"));
+
+// //to get the style and set the style
+
+// div.style.backgroundColor = 'red';
+// div.style.fontSize = '20px';
+// console.log(div.style);
+
+
+
+//insert and delete elements 
+// Methods used, append, prepend, before and after
+
+// let div = document.querySelector("div");
+// let newPara = document.createElement("p");
+
+// div.append(newPara); // at last of the Element
+// newPara.innerText= "Happy First!!!";
+
+// div.prepend(newPara); // first place of the Element
+// newPara.innerText= "Happy First!!!";
+
+// div.before(newPara);
+// newPara.innerText= "Happy First!!!";
+
+// div.after(newPara);
+// newPara.innerText= "Happy First!!!";
+
+
+// Q: Create a button in js and name it as Click Me! with the background red and  text color white, Then insert the button as the first element inside the body tag
+
+// let body = document.querySelector("body");
+
+// let newBtn = document.createElement("button");
+
+// body.prepend(newBtn);
+// newBtn.innerText = 'Click Me!';
+// newBtn.style.backgroundColor = 'red';
+// newBtn.style.color = 'white';
+// newBtn.style.fontSize = '20px';
+// newBtn.style.padding = '7px';
+// newBtn.style.borderRadius = '10px';
+
+// Q: Create a P tag element in html and give it a classname and styling
+    // Now create a new class in CSS and try to append this class to the {p} element
+    // Did you notice, how you overwrite the class name when you add a new one ?
+    // Solve the problem using classList
